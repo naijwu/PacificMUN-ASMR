@@ -5,7 +5,7 @@ The repository includes the registration, Delegate Affair control panel, and the
 
 There is one database called "ASMR," with X amount of tables, where X = the amount of committees + 1;
  - One of the tables is named "DelReg", which contains all the input from the registrants
- - The other tables are 
+ - The other tables are the committees
 
 The flow of the program was supposed to work like this
  > User registers
