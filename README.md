@@ -8,8 +8,7 @@ There is one database called "ASMR," with X amount of tables, where X = the amou
  - The other tables are the committees
 
 The flow of the program was supposed to work like this
- > User registers
-   - 
+ - *let me return to this later* 
 
 Some of the code in the program has been omitted until the registration ends for PacificMUN (For exploitation reasons)
 
