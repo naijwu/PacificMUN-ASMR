@@ -1,0 +1,13 @@
+NOTE:
+The names of the .sql files are the table names as well.
+The .sql files were generated via Export on phpMyAdmin (with names removed)
+
+
+ALSO:
+Should've had a ID PK for each countries for the committee tables.
+
+Would have saved me a lot of time
+
+But time is a social construct so
+
+Nah, yeah, it would've just been much better if I had a PK for the rows
