@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #363e58;
+}
+
+header {
+  height: 140px;
+  background: #12192e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+}
+
+.bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #171f3a;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+.ohhboy,
+.thisonesforellen,
+.dellist {
+  background: #171f3a;
+  margin: 3vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.tabs {
+  width: 160px;
+}
+
+.tabs div {
+  padding: 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.tabs div:hover {
+  cursor: pointer;
+}
+
+.tabs .open.active {
+  background: rgb(14, 19, 36);
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc(100% - 30px);
+  background: rgb(14, 19, 36);
+}
+
+section {
+  width: 100%;
+}
+
+table {
+  text-align: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table tr:first-child {
+  box-shadow: none;
+}
+
+table tr th,
+h2 {
+  color: white;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: white;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+
+  text-align: center;
+  font-size: 16px;
+  padding: 0 0 20px 0;
+}
+
+table tr td {
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-style: none solid solid none;
+  border-width: 2px;
+  border-color: rgb(14, 19, 36);
+}
+
+section#ADHOC {
+  height: 100%;
+}
+
+form {
+  padding-top: 250px;
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 20px;
+  color: white;
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+  background: white;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  padding: 10px 10px;
+  margin-top: 30px;
+  background: white;
+  border: none;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.tabcontent {
+  display: none;
+}
+
+#DISEC {
+  display: table;
+}
+
+.legend {
+  height: 25px;
+  margin-top: 3vw;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.legend .item {
+  height: 25px;
+  display: flex;
+}
+
+.legend .item .rep {
+  line-height: 25px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.legend .item .colour {
+  height: 20px;
+  width: 20px;
+  margin: 2.5px;
+  margin-right: 15px;
+}
+
+.item .colour.green {
+  background: green;
+}
+
+.item .colour.red {
+  background: #9d1111;
+}
+
+.form-container {
+    height:calc(100% - 190px);
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+form.dacplogin {
+    height:auto;
+    width:220px;
+    padding-top:0;
+    padding:35px;
+    background:#171f3a;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    align-items:flex-start;
+}
+
+form.assignment-form {
+    height:auto;
+    width:100%;
+    padding-top:0;
+    padding:35px;
+    background:#171f3a;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    align-items:flex-start;
+}
+
+form.dacplogin h3,
+form.assignment-form h3 {
+    color:white;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+form.dacplogin h4,
+form.assignment-form h4 {
+    padding-bottom:10px;
+    padding-top:20px;
+    color:white;
+}
+
+form.dacplogin input[type="text"],
+form.dacplogin input[type="password"],
+form.assignment-form input[type="text"],
+form.assignment-form input[type="password"] {
+    width:100%;
+}
+
+form.dacplogin input[type="text"]:hover,
+form.dacplogin input[type="password"]:hover,
+form.dacplogin input[type="text"]:focus,
+form.dacplogin input[type="password"]:focus,
+form.assignment-form input[type="text"]:hover,
+form.assignment-form input[type="password"]:hover,
+form.assignment-form input[type="text"]:focus,
+form.assignment-form input[type="password"]:focus {
+    background:#eee;
+}
+
+form.dacplogin input[type="submit"] {
+    width:75px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:700;
+}
+
+
+form.assignment-form input[type="submit"] {
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:700;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+form.dacplogin input[type="submit"]:hover,
+form.assignment-form input[type="submit"]:hover {
+    background:#eee;
+}
+
+form.dacplogin input[type="submit"]:active,
+form.assignment-form input[type="submit"]:active {
+    background:#ccc;
+}
+
+.bar a {
+    color:white;
+    text-decoration:none;
+    border-style:none none dashed none;
+    border-width:2px;
+    border-color:white;
+}
+
+.bar a:hover {
+    border-style: none none solid none;
+}
+
+.dellist {
+    padding:35px;
+}
+
+.dellist-inner {
+    width:100%;
+    box-sizing:border-box;
+    overflow-x:scroll;
+    padding-bottom:50px;
+}
+
+.dellist-inner table {
+    width:5500px;
+}
+
+.dellist-inner::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+.dellist-inner::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+  
+/* Handle */
+.dellist-inner::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+.dellist-inner::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.dellist-inner table tr td {
+    border-width:5px;
+    border-color:#171f3a;
+}

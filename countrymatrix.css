@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #363e58;
+}
+
+header {
+  height: 140px;
+  background: #12192e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+}
+
+.bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #171f3a;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+.ohhboy {
+  background: #171f3a;
+  margin: 3vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.tabs {
+  width: 160px;
+}
+
+.tabs div {
+  padding: 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.tabs div:hover {
+  cursor: pointer;
+}
+
+.tabs .open.active {
+  background: rgb(14, 19, 36);
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc(100% - 30px);
+  background: rgb(14, 19, 36);
+}
+
+section {
+  width: 100%;
+}
+
+table {
+  text-align: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table tr:first-child {
+  box-shadow: none;
+}
+
+table tr th,
+h2 {
+  color: white;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: white;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+
+  text-align: center;
+  font-size: 16px;
+  padding: 0 0 20px 0;
+}
+
+table tr td {
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: rgb(14, 19, 36);
+}
+
+section#ADHOC {
+  height: 100%;
+}
+
+form {
+  padding-top: 250px;
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 20px;
+  color: white;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  background: white;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  padding: 10px 10px;
+  margin-top: 30px;
+  background: white;
+  border: none;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.tabcontent {
+  display: none;
+}
+
+#DISEC {
+  display: table;
+}
+
+.legend {
+  height: 60px;
+  margin-top: 3vw;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.legend .item {
+  height: 25px;
+  display: flex;
+}
+
+.legend .item .rep {
+  line-height: 25px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.legend .item .colour {
+  height: 20px;
+  width: 20px;
+  margin: 2.5px;
+  margin-right: 15px;
+}
+
+.item .colour.green {
+  background: green;
+}
+
+.item .colour.red {
+  background: #9d1111;
+}
