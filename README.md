@@ -1,5 +1,5 @@
 # PacificMUN-ASMR
-Originally what was supposed to be the "Automated System for MUN Registration," which turned into a "Assistance System for MUN Registration." All the files to have it work as intended are there, but some of the code is altered (in index.php) to skip the automation component of the system (instead, registratioin inputs went straight to the database, after checks of course)
+Originally what was supposed to be the "Automated System for MUN Registration," it turned into a "Assistance System for MUN Registration." All the files to have it work as intended are there, but some of the code is altered (in index.php) to skip the automation component of the system (instead, registration inputs went straight to the database, after checks of course)
 
 Had two weeks to make a system. Not my greatest work, but I think the idea behind it is cool. It would've been ever cooler if it worked as  intended. A lot of my conventions with php (in relation to mysql) are somewhat outdated, I think. 
 
